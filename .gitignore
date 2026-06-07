@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# Environment Variables
+.env
+
+# Streamlit
+.streamlit/secrets.toml
+
+# FAISS Vector DB
+faiss_index/
+
+# Chroma DB (if used later)
+chroma_db/
+
+# Logs
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Mac
+.DS_Store
+
+# Test Cache
+.pytest_cache/
+
+# Coverage
+.coverage
+htmlcov/
